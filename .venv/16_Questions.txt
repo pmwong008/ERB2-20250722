@@ -1,0 +1,12 @@
+1) City Population by Country
+
+2) Language Used Percentage by Continent
+
+3) Countries average population per city
+
+4) City with Name start with "Hon" with Country have Official Language
+
+5) Most used language in the World
+
+6) Which country doesn't have city
+
