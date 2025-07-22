@@ -1,0 +1,106 @@
+Database concepts
+
+fixed length # Peter_____15__OOPS___
+tab based # Tab instead of Space
+csv # comma separated
+
+client server mode
+RDBMS # Relational Database Management System
+DB Server, Web Server (RDBMS resides), Client Browser
+
+MySQL (Structured Query Language)
+Community version, open source, no support
+Enterprise version, semi-open source, deployment $$$, extra feature, technical support
+
+Ethical hacker
+PosGressSQL
+MSSQL
+
+MySQL on GPL License Terms
+http://www.fsf.org/licenses
+
+MySQL Data types
+Must be defined to start with, less flexible
+integer (+/-) (1,2,3,4 & 8 bit)
+float...
+date, datetime, time, timestamp, text, blob, varbinary...
+year, set, enum, OpenGIS spatial types (longitude/ latitude)...
+
+pip install python connector
+
+connect
+create DB (case insensitive in nature, by convention, use ALL_CAPS)
+connect
+query
+modify & save
+close
+
+connection timeout
+
+getpass
+environmental variable
+';' automatically appends a semicolon at the end of your one-line query. Termination of instruction.
+
+In MySQL workbench
+showdatabases; # to see all DB in your account
+
+Identifier, uniqueness, integer, auto increment, not necessarily be integer, can be other things, UUID
+
+Primary Key
+Foreign Key, look-up other relational DB, make reference to them
+Compound Key
+
+with connection.cursor() as fred:
+    fred.execute(do_something_query)
+    fred.execute(do_something_else_query)
+    ...
+    connection.commit()
+
+INSERT INTO movies( title, release_year, genre, collection_in_mil )
+VALUES (
+
+'''
+SELECT
+    Name,
+    Region
+FROM
+    country
+WHERE
+    Name = "Austria" OR Population > 100000;
+'''
+
+WHERE NOT
+ORDER BY # id by default, 'sort' as in others
+    Population DESC # reverse sort
+AND (    OR    )
+
+Filter criteria
+Join Table
+
+pip install mysql-connector-python
+pip install python-dotenv
+
+import os # to use .env
+
+# Null cannot be tested with any operators
+IS NULL
+IS NOT NULL
+
+We can define a column to prevent from getting NULLs
+
+SELECT
+	Name,
+    Population,
+    SurfaceArea,
+    Population/SurfaceArea AS ppl # Calculated field will also be printed
+FROM
+	world.country
+WHERE
+	Population / SurfaceArea > 5000
+ORDER BY
+	Name DESC;
+
+supabase
+python client library
+initializing script -> copy and paste
+fetcdh data
