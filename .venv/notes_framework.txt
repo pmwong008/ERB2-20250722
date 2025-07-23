@@ -1,0 +1,34 @@
+attract and engage users
+interaction
+front end experience, smooth
+back end support
+Django - framework between front end and back end
+Ruby on Rails, Php on Laravel, Python on Django, Javascript on Node - website framework.
+ASP on C#, JBoss on JAVA - traditional programming languages, heavy, for better compatibility, not meant for website.
+Node.js still most popular but its spin-off web versions are creating currents in too much directions.
+Django - rising market share because of Python libraries, connection with database.
+Javascript - script run on browsers, increase performance and interactivity.
+Node.js - server side javascript. Syntax is the same as Javascript.
+Open source, large ego systems
+JQuery
+
+FRAMEWORK
+Limit freedom of flexibilities, rooms with assigned utilities - basic functionalities, security, portability
+
+Django feature - include user login in the first place
+structure - MVT Design pattern (Model, View, Template)
+Batteries-included approach
+
+Node.js feature - Event driven
+
+FLASK micro-framework
+Resources limited, light weight
+Website update is easier that Application update, no installation required
+
+Data Modeling
+Django - strength, required a database to run
+Flask - Not supported, need SQLAlchemy, a Python database tool, or others
+
+Dynamic HTML
+Django - support
+Flask - not supported
